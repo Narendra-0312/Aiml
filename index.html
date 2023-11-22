@@ -23,16 +23,16 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style="background-color: #000000">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
                             <li class="nav-item active">
-                                <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                                <a class="nav-link" aria-current="page" href="{{ url_for('index') }}">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">ABOUT</a>
+                                <a class="nav-link" href="{{ url_for('about') }}">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="team.html">TEAM</a>
+                                <a class="nav-link" href="{{ url_for('team') }}">TEAM</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="feedback.html">FEEDBACK</a>
+                                <a class="nav-link" href="{{ url_for('feedback') }}">FEEDBACK</a>
                             </li>
                         </ul>
                     </div>
@@ -61,12 +61,9 @@
             </div>
         </div>
         <footer class="footer">
-            <a
-            href="https://github.com/Narendra-0312/Aiml"
-            target="_blank"
-          >
-            <img src="github-logo.png" alt="GitHub" />
-          </a>
+            <a href="#" target="_blank">
+                <img src="github-logo.png" alt="GitHub">
+            </a>
             <!-- Add more links as needed -->
         </footer>
     </div>
